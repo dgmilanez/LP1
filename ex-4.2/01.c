@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "todos_os_primos.h"
-
+/*
+* num = Numero digitado pelo usuario.
+*/
 int main(void){
 	int num;
 

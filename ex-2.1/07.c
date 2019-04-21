@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+/*
+* NV = Número de vitórias de um time.
+* NE = Número de emparte de um time.
+* ND = Número de derrotas de um time.
+* NP = Número de pontos.
+* MP = Maior número de pontos.
+* mP = Menor número de pontos.
+*/
 
 int main(void){
 	int i = 1,NV,NE,ND,NP,MP = 0,mP = 0;
@@ -7,6 +15,7 @@ int main(void){
 	char TimeMaior[20];
 	char TimeMenor[20];
 
+	//O usuario entra com os dados de 20 times.
 	for (i; i <=20 ; i++){
 		printf("Digite o nome do time: ");
 		scanf("%s",&Time);
@@ -18,7 +27,7 @@ int main(void){
 		scanf("%d",&ND);
 
 		NP = (NV*3 + NE);
-		
+		//Verifica a cada entrada se o time tem a maior ou menor pontuacao:
 		if (i == 1){
 			strcpy(TimeMaior,Time);
 			strcpy(TimeMenor,Time);
@@ -36,6 +45,7 @@ int main(void){
 		}
 	}
 
+	//Imprime os times com o maior e menor pornto:
 	printf("O time com a maior pontuacao foi o %s\n",TimeMaior);
 	printf("O time com a menor pontuacao foi o %s\n",TimeMenor);
 	return 0;

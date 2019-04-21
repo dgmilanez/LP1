@@ -1,4 +1,11 @@
 #include <stdio.h>
+/*
+* qtd = Quantidade de temperaturas.
+* tmps[] = Temperaturas.
+* soma = Soma das temperaturas
+* media = Media das temperaturas.
+*/
+
 
 int main(void){
 	char i=1,qtd=0,tmps[8];
@@ -13,18 +20,19 @@ int main(void){
 		soma += tmps[i];
 	}
 
-	//Calcula a media das temperaturas.
+	//Calcula a media das temperaturas:
 	media = soma / 8.0;
 	
-	i=0; //Zera o contador i.
+	i=0;
 
-	//Conta quantas temperaturas estão acima da media.
+	//Conta quantas temperaturas estão acima da media:
 	for (i;i<8;i++){
 		if (tmps[i] > media){
 			qtd++;
 		}
 	}
 	
+	//Imprime quantas temperaturas ficaram acima da media:
 	printf("A quantidade de leituras acima da media foi %d.\n",qtd);
 	return 0;
 }
