@@ -1,0 +1,8 @@
+/*
+* P: Qual é a diferença entre tipagem estática e dinâmica?
+* R: Na tipagem estática, é necessário especificar o tipo de dados que as variáveis irão armazenar e esse tipo não é mudado durante o tempo de compilação e execução. Já o tipo fraco, você também especifica, mas é possível modificar o tipo de dados ao longo da intepretação do código.
+* P: Dê exemplos de linguagens que usem tipagem estática e exemplos de linguagens que usem tipagem dinâmica.
+* R: Estática: C, Pascal, Cobol . Tipagem Dinâmica: Java, Python.
+* P: Por quê uma linguagem com tipagem estática é tipicamente mais rápida do que uma com tipagem dinâmica? Justifique usando um exemplo.
+* R: Nas linguagens de tipagem estática, alguns processos são feitos durante a compilação. Já nas linguagens de tipagem dinâmica, esses processos são feitos com maior frequência, todas vezes que as variáveis são utilizadas.
+*/

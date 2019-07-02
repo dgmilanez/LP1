@@ -9,7 +9,7 @@
 * T = Tamanho da palavra de destino (D). E a soma dos tamanhos das palavras de origem O1 e O2.
 * count = Quantidade de letras das palavras.
 */
-int strlen2(char* str){
+int tamanho(char* str){
 	int i=0,count=0;
 	//Verifica o tamanho das palavras:
 	while(str[i] != '\0'){
@@ -19,7 +19,7 @@ int strlen2(char* str){
 	return count;
 }
 
-void strjoin2(char* d,char* o1,char* o2,int t){
+void concatena(char* d,char* o1,char* o2,int t){
 	int i=0,j=0;
 	//Preenche a palavra de destino (D) com a palavra de origem 1 (O1):
 	while(o1[i] != '\0'){
@@ -52,12 +52,12 @@ int main(void){
 	scanf("%s",&O2);
 
 	//Calcula o tamanho da palavra de destuno:
-	T =  strlen2(O1) + strlen2(O2);
+	T =  tamanho(O1) + tamanho(O2);
 	
 	char D[T];
 
 	//Junta as palavras de origem 1 e 2 (O1 e O2) na palavra de destino (D):
-	strjoin2(D,O1,O2,T);
+	concatena(D,O1,O2,T);
 
 	return 0;
 }

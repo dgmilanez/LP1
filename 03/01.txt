@@ -1,0 +1,5 @@
+P: O que é um tipo de dados?
+R: É a classificação de um grupo especcífico de dado.
+
+P: Para que servem os tipos?
+R: Para organizar a maneira que o computador lê e escreve esses dados.

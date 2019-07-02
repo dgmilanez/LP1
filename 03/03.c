@@ -12,7 +12,7 @@ int main(void){
 	float media,soma=0;
 
 	//O usuario entra com os 8 valores de temperatura e as temperaturas sao somadas.
-	for (i;i<8;i++){
+	for (i;i<50;i++){
 		int tmp;
 		printf("Digite uma temperatura entre -100 e 100: ");
 		scanf("%d",&tmp);
@@ -21,12 +21,12 @@ int main(void){
 	}
 
 	//Calcula a media das temperaturas:
-	media = soma / 8.0;
+	media = soma / 50.0;
 	
 	i=0;
 
 	//Conta quantas temperaturas estão acima da media:
-	for (i;i<8;i++){
+	for (i;i<50;i++){
 		if (tmps[i] > media){
 			qtd++;
 		}

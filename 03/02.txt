@@ -1,0 +1,19 @@
+// Considere o programa a seguir:
+
+#include <stdio.h>
+void main (void) {
+    printf("Soma = %d\n", 100-"10");
+}
+
+
+/* 
+* P: O que você espera que aconteça ao compilar o programa? Por quê?
+* R: Uma mensagem de erro será exibida. Porque não é possíel operar dois operadores diferentes (int e char); 
+*
+* P: Quais são os tipos dos operandos na operação de subtração?
+* R: Inteiro (100) e char ("10").
+*
+* P: Transcreva a mensagem de erro de compilação e a explique.
+* R: "error: invalid operands to binary - (have ‘int’ and ‘char *’)". Diz que não é possível operar um int e um char.
+*
+*/

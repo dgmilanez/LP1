@@ -3,7 +3,7 @@
 * string[] = Uma palavra qualquer..
 * count = Contador da quantidade de caracteres que a palavra possui.
 */
-int strlen2(char* str){
+int tamanho(char* str){
 	int i=0,count=0;
 	while(str[i] != '\0'){
 		count++;
@@ -19,7 +19,7 @@ int main(void){
 	scanf("%s",&string);
 	
 	//Imprime na saida padrao a quantidade de caracteres da palavra digitado:
-	printf("%d\n",strlen2(string));
+	printf("%d\n",tamanho(string));
 
 	return 0;
 }

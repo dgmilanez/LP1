@@ -1,0 +1,3 @@
+P: Qual é a diferença entre struct e union. Dê exemplos de uso que identifiquem a necessidade dos dois construtores de tipos.
+R: Uma struct e um conunto de dados (variaves) estruturados, ja uma union e uma sobreposicao desses dados (variaveis).
+Uma stuct e utilizada para representar um tipo composto de dados. Ja uma union e utilizada para representar um tipo variavel de dados.

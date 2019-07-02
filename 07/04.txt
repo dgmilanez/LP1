@@ -1,0 +1,10 @@
+Questao 4:
+P:Explique com suas próprias palavras as diferentes abordagens dos exercícios 2 e 3.
+R:No exercicio 2, preenchemos os valores do objetos criando objeto temporário e depois retornando ele atraves da funcao. Desta forma se evita utilizar ponteiros. Porem, usa-se mais memoria para armazenar todos os objetos.
+Ja no exercicio 3, utlizamos ponteiros passando-os para a funcao e entao manipular os dados dos objetos por ele. Desta forma se tem um consumo menor da memoria e um codigo um pouco mais compacto.
+
+P:Qual abordagem você prefere usar e porquê?
+R:Eu prefiro usando os ponteiros. O codigo fica um pouco mais compacto e um pouco mais rapido, alem de consumir menos menoria.
+
+P:Na sua opinião quais são as diferenças de uso de memória e velocidade nas duas abordagens?
+R:O uso de memoria e o consumo de CPU e menor quando se utiliza ponteiros, pois precisamos instanciar e operar menos objetos.
